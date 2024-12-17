@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="shortcut icon"
+      href="./assets/img/favicon.webp"
+      type="image/x-icon"
+    />
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+
+    <title>Personal portfolio Dmytro Oliinyk</title>
+  </head>
+
+  <body>
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">Dmytro Oliinyk</a>
+        <div class="nav__menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">
+                <i class="bx bx-home-alt"></i>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">
+                <i class="bx bxs-user"></i>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="bx bxs-book"></i>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#feedbacks" class="nav__link">
+                <i class="bx bx-like"></i>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">
+                <i class="bx bx-message-square-detail"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <i class="bx bx-moon change-theme" id="theme-button"></i>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__data">
+            <span class="home__greeting">Hello, I'm</span>
+            <h1 class="home__name">Dmytro Oliinyk</h1>
+            <h3 class="home__education">Software Engineer</h3>
+            <div class="home__buttons">
+              <a
+                download=""
+                href="assets/pdf/My Resume.pdf"
+                class="button button--ghost"
+              >
+                Download CV
+              </a>
+              <a href="#about" class="button">About me</a>
+            </div>
+          </div>
+          <div class="home__handle">
+            <img src="assets/img/Profile photo.jpg" alt="" class="home__img" />
+          </div>
+          <div class="home__social">
+            <a
+              href="https://www.linkedin.com/in/dima-oliinyk-466727205/"
+              class="home__social-link"
+              target="_blank"
+            >
+              <i class="bx bxl-linkedin-square"></i>
+            </a>
+            <a
+              href="https://github.com/IceDiceMice"
+              class="home__social-link"
+              target="_blank"
+            >
+              <i class="bx bxl-github"></i>
+            </a>
+          </div>
+          <a href="#about" class="home__scroll home__scroll-icon">
+            <i class="bx bx-mouse"></i>
+            <span class="home__scroll-name">Scroll Down</span>
+          </a>
+        </div>
+      </section>
+
+      <section class="about section" id="about">
+        <span class="section__subtitle">My Intro</span>
+        <h2 class="section__title">About Me</h2>
+        <div class="about__container container grid">
+          <img src="assets/img/programmer.png" alt="" class="about__img" />
+          <div class="about__data">
+            <div class="about__info">
+              <div class="about__box">
+                <i class="bx bx-award about__icon"></i>
+                <h3 class="about__title">Experience</h3>
+                <span class="about__subtitle">2.5 years working</span>
+              </div>
+
+              <div class="about__box">
+                <i class="bx bx-user-voice about__icon"></i>
+                <h3 class="about__title">English Level</h3>
+                <span class="about__subtitle">B2 Upper intermediate</span>
+              </div>
+
+              <div class="about__box">
+                <i class="bx bx-home about__icon"></i>
+                <h3 class="about__title">Living</h3>
+                <span class="about__subtitle">Ukraine, Ivano-Frankivsk</span>
+              </div>
+            </div>
+            <p class="about__description">
+              I am software engineer with 2+ years of commercial experience. I'm
+              passionate for web development, working with JavaScript related
+              technologies. My strong sides are teamworking, taking
+              responsibilities, dedicating to the work, communication and
+              willing to help. I'am always trying to impove myself as a
+              professional and continue to learn something new.
+            </p>
+
+            <a href="#contact" class="button">Contact Me</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="skills section" id="skills">
+        <span class="section__subtitle">My abilities</span>
+        <h3 class="section__title">My Skills</h3>
+        <div class="skills__container container grid">
+          <div class="skills_content">
+            <h3 class="skills__title">Frontend</h3>
+            <div class="skills__box">
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">HTML</h3>
+                    <span class="skills__level">Basic</span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">CSS</h3>
+                    <span class="skills__level">Basic</span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">JavaScript</h3>
+                    <span class="skills__level">Intermediate</span>
+                  </div>
+                </div>
+              </div>
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">TypeScript</h3>
+                    <span class="skills__level">Basic</span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">Redux</h3>
+                    <span class="skills__level">Basic</span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">React</h3>
+                    <span class="skills__level">Intermediate</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="skills_content">
+            <h3 class="skills__title">Backend</h3>
+            <div class="skills__box">
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">Node.js</h3>
+                    <span class="skills__level">Basic</span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">SQL</h3>
+                    <span class="skills__level">Basic</span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">Nest.js</h3>
+                    <span class="skills__level">Basic</span>
+                  </div>
+                </div>
+              </div>
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">Docker</h3>
+                    <span class="skills__level">Basic</span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">Git</h3>
+                    <span class="skills__level">Basic</span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">REST</h3>
+                    <span class="skills__level">Basic</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="experience section">
+        <span class="section__subtitle">My Experience</span>
+        <h2 class="section__title">Career Highlights</h2>
+        <div class="experience__container container grid">
+          <div class="experience__card">
+            <h3 class="experience__title">
+              JavaScript <br />
+              Developer
+            </h3>
+            <span class="experience__subtitle">Beetroot</span>
+            <span class="experience__button">
+              See More <i class="bx bx-right-arrow-alt .experience__icon"></i>
+            </span>
+
+            <div class="experience__modal">
+              <div class="experience__modal-content">
+                <i class="bx bx-x experience__modal-close"></i>
+                <h3 class="experience__modal-title">JavaScript Developer</h3>
+                <p class="experience__modal-description">
+                  January 2022 - August 2023
+                </p>
+                <ul class="experience__modal-list">
+                  <li class="experience__modal-item">
+                    <i class="bx bx-check experience__modal-icon"></i>
+                    <p class="experience__modal-info">
+                      Working with Google Chrome Extension.
+                    </p>
+                  </li>
+                  <li class="experience__modal-item">
+                    <i class="bx bx-check experience__modal-icon"></i>
+                    <p class="experience__modal-info">
+                      Working on unique project using TypeScript and OOP.
+                    </p>
+                  </li>
+                  <li class="experience__modal-item">
+                    <i class="bx bx-check experience__modal-icon"></i>
+                    <p class="experience__modal-info">
+                      Working with API using Node.js, SQL and Docker.
+                    </p>
+                  </li>
+                  <li class="experience__modal-item">
+                    <i class="bx bx-check experience__modal-icon"></i>
+                    <p class="experience__modal-info">
+                      Acquired strong problem solving skills.
+                    </p>
+                  </li>
+                  <li class="experience__modal-item">
+                    <i class="bx bx-check experience__modal-icon"></i>
+                    <p class="experience__modal-info">
+                      Experience with several UI frameworks and related
+                      libraries such as: Angular, Next.js, React, React.Native,
+                      RxJS, Redux, etc.
+                    </p>
+                  </li>
+                  <li class="experience__modal-item">
+                    <i class="bx bx-check experience__modal-icon"></i>
+                    <p class="experience__modal-info">Reverse engineering.</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="experience__card">
+            <h3 class="experience__title">
+              Full-stack <br />
+              Developer
+            </h3>
+            <span class="experience__subtitle">SoftServe</span>
+            <span class="experience__button">
+              See More <i class="bx bx-right-arrow-alt .experience__icon"></i>
+            </span>
+            <div class="experience__modal">
+              <div class="experience__modal-content">
+                <i class="bx bx-x experience__modal-close"></i>
+                <h3 class="experience__modal-title">Full-stack Developer</h3>
+                <p class="experience__modal-description">
+                  September 2023 - May 2024
+                </p>
+                <ul class="experience__modal-list">
+                  <li class="experience__modal-item">
+                    <i class="bx bx-check experience__modal-icon"></i>
+                    <p class="experience__modal-info">
+                      Working with microfrontend and microexperience.
+                    </p>
+                  </li>
+
+                  <li class="experience__modal-item">
+                    <i class="bx bx-check experience__modal-icon"></i>
+                    <p class="experience__modal-info">
+                      Working with React using Zustand, Rollup.
+                    </p>
+                  </li>
+                  <li class="experience__modal-item">
+                    <i class="bx bx-check experience__modal-icon"></i>
+                    <p class="experience__modal-info">
+                      Experience with Node.js and Nest.js framework.
+                    </p>
+                  </li>
+                  <li class="experience__modal-item">
+                    <i class="bx bx-check experience__modal-icon"></i>
+                    <p class="experience__modal-info">
+                      Improving existing code.
+                    </p>
+                  </li>
+                  <li class="experience__modal-item">
+                    <i class="bx bx-check experience__modal-icon"></i>
+                    <p class="experience__modal-info">
+                      Using instruments such as: Datadog, GCP, tools for
+                      debuging.
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="feedbacks section" id="feedbacks">
+        <span class="section__subtitle">My Feedbacks</span>
+        <h2 class="section__title">Feedbacks</h2>
+        <div class="feedbacks__container container swiper">
+          <div class="swiper-wrapper">
+            <div class="feedbacks__card swiper-slide">
+              <img src="assets/img/Gerrit.jpeg" alt="" class="feedbacks__img" />
+              <h3 class="feedbacks__name">Gerrit Gruesgen</h3>
+              <p class="feedbacks__description">
+                I had the pleasure of managing Dmytro Oliinyk for 1.5 years
+                during his time as a Junior Software Developer on our team, and
+                I wholeheartedly recommend him. Dmytro's contributions to our
+                projects were consistently impressive. His comprehensive grasp
+                of the project objectives allowed him to deliver high-quality
+                work, both on the frontend and backend, showcasing his
+                versatility and adaptability. One of Dmytro's standout qualities
+                is picking up new technologies. He consistently seeks out
+                opportunities to expand his skillset, which greatly benefited
+                the team and the projects we tackled. Moreover, Dmytro's
+                collaborative spirit, openness to feedback, and seamless
+                teamwork make him a valuable asset. I'm particularly impressed
+                by his willingness to take on challenging projects, assuming
+                responsibility with a proactive approach. Dmytro's commitment to
+                continuous improvement is genuinely admirable, making him a
+                great developer to work with.
+              </p>
+            </div>
+            <div class="feedbacks__card swiper-slide">
+              <img src="assets/img/Oleg.jpeg" alt="" class="feedbacks__img" />
+              <h3 class="feedbacks__name">Oleg Draganchuk</h3>
+              <p class="feedbacks__description">
+                To whom it may concern, I've worked with Dima in the same
+                company, and I'm impressed by his front-end skills. He's
+                detail-oriented and always delivers quality work. Besides, Dima
+                is friendly and easy to collaborate with. I'd recommend him for
+                any projects.
+              </p>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <!--=============== CONTACT ===============-->
+      <section class="contact section" id="contact">
+        <span class="section__subtitle">Get in touch</span>
+        <h2 class="section__title">Contact me</h2>
+        <div class="contact__container container grid">
+          <div class="contact__content">
+            <h3 class="contact__title">Talk to me</h3>
+            <div class="contact__info">
+              <div class="contact__card">
+                <i class="bx bx-mail-send contact__card-icon"></i>
+                <h3 class="contact__card-title">Email</h3>
+                <span class="contact__card-data"
+                  >oliinyk.dmytro1997@gmail.com</span
+                >
+
+                <a
+                  href="mailto:oliinyk.dmytro1997@gmail.com"
+                  target="_blank"
+                  class="contact__button"
+                >
+                  Write me
+                  <i class="bx bx-right-arrow-alt contact__title-icon"></i>
+                </a>
+              </div>
+              <div class="contact__card">
+                <i class="bx bxl-telegram contact__card-icon"></i>
+                <h3 class="contact__card-title">Telegram</h3>
+                <span class="contact__card-data">@dmytrooliinyk97</span>
+
+                <a
+                  href="https://t.me/dmytrooliinyk97"
+                  target="_blank"
+                  class="contact__button"
+                >
+                  Write me
+                  <i class="bx bx-right-arrow-alt contact__title-icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="contact__content">
+            <h3 class="contact__title">Write me a letter</h3>
+            <form
+              action="mailto:oliinyk.dmytro1997@gmail.com"
+              method="post"
+              enctype="text/plain"
+              class="contact__form"
+            >
+              <div class="contact__form-div">
+                <label for="" class="contact__form-tag">Names</label>
+                <input
+                  type="text"
+                  placeholder="Insert your name"
+                  class="contact__form-input"
+                />
+              </div>
+              <div class="contact__form-div">
+                <label for="" class="contact__form-tag">Mail</label>
+                <input
+                  type="email"
+                  placeholder="Insert your email"
+                  class="contact__form-input"
+                />
+              </div>
+              <div class="contact__form-div contact__form-area">
+                <label for="" class="contact__form-tag">Content</label>
+                <textarea
+                  type="text"
+                  cols="30"
+                  rows="10"
+                  placeholder="Write your project"
+                  class="contact__form-input"
+                >
+                </textarea>
+              </div>
+              <button type="submit" value="submit" class="button">
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__container container">
+        <h1 class="footer__title"></h1>
+        <ul class="footer__list">
+          <li>
+            <a href="#about" class="footer__link">About Me</a>
+          </li>
+          <li>
+            <a href="#skills" class="footer__link">My Skills</a>
+          </li>
+          <li>
+            <a href="#feedbacks" class="footer__link">Feedbacks</a>
+          </li>
+        </ul>
+
+        <ul class="footer__social">
+          <a
+            href="https://www.facebook.com/profile.php?id=100002253026503"
+            target="_blank"
+            class="footer__social-link"
+          >
+            <i class="bx bxl-facebook-square"></i>
+          </a>
+          <a
+            href="https://www.instagram.com/dimi4_from_ua/"
+            target="_blank"
+            class="footer__social-link"
+          >
+            <i class="bx bxl-instagram"></i>
+          </a>
+          <a
+            href="https://x.com/Dimas38291019"
+            target="_blank"
+            class="footer__social-link"
+          >
+            <i class="bx bxl-twitter"></i>
+          </a>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <script src="/assets/js/swiper-bundle.min.js"></script>
+
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
